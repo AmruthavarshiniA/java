@@ -1,0 +1,10 @@
+package sun.jvm.hotspot.debugger;
+
+public class Address {
+
+	public Object getCountry() {
+		
+		return null;
+	}
+
+}

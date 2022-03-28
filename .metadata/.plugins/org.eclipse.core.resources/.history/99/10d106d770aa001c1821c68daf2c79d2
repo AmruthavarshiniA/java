@@ -1,0 +1,10 @@
+package com.testapp;
+
+import java.util.ArrayList;
+
+public class ShoppingCart {
+
+	private ArrayList<Product> p=new ArrayList<Product>();
+	
+	
+}

@@ -1,0 +1,28 @@
+package com.testapp;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class ShoppingCartTest {
+	
+	private ShoppingCart cart=new ShoppingCart();
+	Product p1;
+
+	@BeforeEach
+	public void addDefaults() {
+		cart.AddItem(new Product("soap",10));
+	}
+	
+	@Test
+	void testAddItem() {
+		assertEquals(1, cart.getItemsCount());
+	}
+	
+	@Test
+	void testRemove() {
+		assertEquals(1,cart.getItemsCount());
+	}
+
+}

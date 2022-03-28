@@ -1,0 +1,19 @@
+package day5;
+
+import java.util.ArrayList;
+
+public class ProjectMain {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<Project> p=new ArrayList<Project>();
+		p.add(new Project(100,"java","Banglore",10000));
+		p.add(new Project(101,"python","pune",15000));
+		p.add(new Project(102,"cloud","pune",20000));
+		
+		for(Project P:p) {	
+			System.out.println(P);
+			}
+	}
+	
+}

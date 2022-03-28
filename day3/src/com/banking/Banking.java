@@ -1,0 +1,8 @@
+package com.banking;
+
+public interface Banking {
+
+	public String withdraw(int amt);
+	public String deposite(int amt);
+	public String checkbalance();
+}

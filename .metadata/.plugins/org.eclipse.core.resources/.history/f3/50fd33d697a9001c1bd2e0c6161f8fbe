@@ -1,0 +1,22 @@
+package com.task;
+
+public class Student {
+
+	int roolNo;
+	String subject;
+	String name;
+	String city;
+	
+	@Override
+	public String toString() {
+		return "Student [roolNo:"+roolNo+",subject:"+subject+",name:"+name+",city:"+city+"]";
+	}
+
+	public Student(int roolNo, String subject, String name, String city) {
+		super();
+		this.roolNo = roolNo;
+		this.subject = subject;
+		this.name = name;
+		this.city = city;
+	}
+}

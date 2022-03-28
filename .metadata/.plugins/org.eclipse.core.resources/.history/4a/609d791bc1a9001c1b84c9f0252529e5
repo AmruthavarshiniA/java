@@ -1,0 +1,5 @@
+package sun.jvm.hotspot.debugger;
+
+public class Address {
+
+}

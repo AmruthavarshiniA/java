@@ -1,0 +1,44 @@
+package com.task5;
+
+import sun.jvm.hotspot.debugger.Address;
+
+public class User {
+	Address getAddress() {
+	    return this.getAddress();
+	    User user;
+	if(user != null) {
+	    
+		Address address = user.getAddress();
+	    if(address != null && ((String) address.getCountry()).equalsIgnoreCase("India")) {
+		    System.out.println("User belongs to India");
+	    }
+	}
+	}
+	//Now, let’s see how we can get the same result using map() method -
+
+	//userOptional.map(User::getAddress).filter(address -> address.getCountry().equalsIgnoreCase("India"))
+	//.ifPresent(() -> {
+	    //System.out.println("User belongs to India");
+	//});
+}
+
+/*Considering the following getAddress() method inside User class -
+
+Address getAddress() {
+    return this.address;
+}
+Here is how you would achieve the desired result -
+
+if(user != null) {
+    Address address = user.getAddress();
+    if(address != null && address.getCountry().equalsIgnoreCase("India")) {
+	    System.out.println("User belongs to India");
+    }
+}
+Now, let’s see how we can get the same result using map() method -
+
+userOptional.map(User::getAddress)
+.filter(address -> address.getCountry().equalsIgnoreCase("India"))
+.ifPresent(() -> {
+    System.out.println("User belongs to India");
+});*/

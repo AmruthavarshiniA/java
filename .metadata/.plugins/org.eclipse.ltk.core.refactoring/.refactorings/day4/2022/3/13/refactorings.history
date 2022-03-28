@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;utildemo.LinkedHashSet.java&apos; to &apos;LinkedHashSetDemo.java&apos;&#x0A;- Original project: &apos;day4&apos;&#x0A;- Original element: &apos;utildemo.LinkedHashSet.java&apos;&#x0A;- Renamed element: &apos;utildemo.LinkedHashSetDemo.java&apos;" description="Rename compilation unit &apos;LinkedHashSet.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;utildemo{LinkedHashSet.java" name="LinkedHashSetDemo.java" references="false" stamp="1647844272740" version="1.0"/>
+</session>
